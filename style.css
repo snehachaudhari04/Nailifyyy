@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Kaushan+Script&family=Poppins:wght@600&display=swap');
+*{
+    font-family: 'Edu SA Beginner', cursive;
+     font-family: 'Kaushan Script', cursive;
+     font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    text-transform: capitalize;
+	transition: all .3s linear;
+    
+}
+html{
+	
+	overflow-x: hidden;
+
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+}
+.navcontainer{
+    width: 100vw;
+    height: 60px;
+    background-color:black;
+    position: fixed;
+    
+}
+.navlogo{
+    font-size: 2vmax;
+    color:white;
+    font-family: cursive;
+    font-weight: bolder;
+    
+}
+
+.menuitem{
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 50%;
+}
+.menuitem2{
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#me{
+    display: inline-block;
+    margin-left: 50px;
+}
+#menutext{
+    font-size: 2vmax;
+    color: white;
+    font-family: cursive;
+
+}
+a{
+    text-decoration: none;
+}
+.footercontainer{
+    height: 40px;
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+.maincontent{
+    background-color: white;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.homecard{
+     width: 70vw;
+     height: 65vh;
+     background-color :antiquewhite;
+     display: flex;
+     border: 1px solid black;
+     box-shadow: 20px 20px 50px grey;
+     
+    
+}
+.homecard:hover{
+    width: 71vw;
+    height: 66vh;
+}
+.divhome{
+    text-align: center;
+    color:black;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+
+}
+.divimg{
+    width: 50%;
+    background-image: url(images/pngwing.com.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-p{
+    font-size: 2vmin;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-text{
+    font-size: 4vmax;
+    font-family: 'Kaushan Script', cursive;
+}
+.btn{
+    margin-top: 20px;
+   
+}
+.btn a {
+    width: 50%;
+    text-decoration: none;
+    display: inline-block;
+	padding: 16 px 0;
+	margin: 0 10px  ;
+	font-size: 2vmax;
+	border: .6px solid #fff;
+    font-family: 'Kaushan Script', cursive;
+    border: 1px solid black;
+}
+.btn a:hover{
+    color: #000;
+    background-color: bisque;
+    
+}
+
+
+
+
+
+.Gallerycontainer{
+    background-color:white;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid black;
+    margin-bottom: 200px;
+    overflow: auto;
+
+}
+.divgall{
+    display: flex;
+    background-color:white;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: auto;
+    
+
+}
+
+.texth{
+    font-size: 60px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.card{
+    height:30vh;
+    width:18vw;
+    background-color :antiquewhite;
+    display: flex;
+    border-radius:10px;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 20px 20px 50px grey;
+   margin: 20px;
+}
+.card:hover{
+     height: 30.2vh;
+     width:18.3vw;
+}
+#card1{
+    background-image: url(images/img1.jpeg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card2{
+    background-image: url(images/img2.jpeg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card3{
+    background-image: url(images/img3.jpeg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card4{
+    background-image: url(images/img4.jpeg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card5{
+    background-image: url(images/img5.jpeg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card6{
+    background-image: url(images/img11.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card7{
+    background-image: url(images/img9.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+#card8{
+    background-image: url(images/img12.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+
+}
+
+.servicegrid{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow:auto;
+}
+.sercard{
+    height: 40vh;
+    width: 30vw;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   
+
+}
+
+#sercard1{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#sercard1:hover{
+    background-color: white;
+}
+
+#sercard2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
+}
+#sercard2:hover{
+    background-color: white;
+}
+#sercard3{
+    border-bottom: 1px solid black;
+
+}
+#sercard3:hover{
+    background-color: white;
+}
+#sercard4{
+    border-right: 1px solid black;
+}
+#sercard4:hover{
+    background-color: white;
+}
+#sercard5{
+    border-right: 1px solid black;
+}
+#sercard5:hover{
+    background-color: white;
+}
+#sercard6{
+    border-right: 1px solid black;
+}
+#sercard6:hover{
+    background-color: white;
+}
+
+.serimg1{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/manicure.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.serh{
+    color: #000;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 30px;
+    height: 40%;
+}
+.serpc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.serp{
+    color: grey;
+    font-size:95%;
+    font-weight: lighter;
+    margin-top: 30px;
+    width: 50%;
+}
+.serimg2{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/pedicure.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg3{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/facial-massage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg4{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/nail-polish.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg5{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/moisturizer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.serimg6{
+    color: blue;
+    height: 40%;
+    width: 20%;
+    background-image: url(images/wax.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*Contact section*/
+.contact{
+    height: 100vh;
+    width: 100vw;
+}
+.contactcontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap:wrap;
+}
+.contactform{
+    height: 100vh;
+    width: 62%; 
+    padding: 4rem;
+    
+}
+.contactaddr{
+    height: 100vh;
+    width: 38%;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textf{
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+    border: solid black 1 px ;
+    border-radius: 20px;
+}
+.textf:hover{
+    background-color: antiquewhite;
+}
+
+
+#btn{
+    margin: 1rem;
+    padding: 1rem;
+    border: solid black 1 px ;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+#btn:hover{
+    background-color:white;
+    
+}
+.concard{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+.concard:hover{
+   background-color: antiquewhite;
+}
+.addimg{
+    height: 30px;
+    width: 30px;
+}
+/*---------------media quries----------------------------*/
+
+ /* Responsive styles */
+  
+  @media (max-width: 600px) {
+    .navlogo{
+        font-size: 5vw;
+    }
+    .homecard{
+        width: 90vw;
+        height: 50vh;
+    }
+    .home-p{
+        font-size: 2vw;
+    }
+    .card{
+        width: 80vw;
+        height: 40vh;
+        margin-bottom: 20px;
+    }
+    .Gallerycontainer{
+        margin-bottom: 0px;
+    }
+    .sercard{
+        height: 40vh;
+        width: 80vw;
+        background-color:antiquewhite;
+        margin: 10px;
+        border-radius: 25px;
+        border: none;
+    }
+    .servicegrid{
+        background-color:white;
+     }
+     .contactform{
+        height: 60vh;
+        width: 100vw; 
+        padding: 2rem;
+        
+    }
+    .contactaddr{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    
+  }
+ 
+
+
+
+
+
+
+  
+ 
+  
+
+
